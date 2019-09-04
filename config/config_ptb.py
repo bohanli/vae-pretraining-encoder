@@ -1,0 +1,20 @@
+params={
+    'enc_type': 'lstm',
+    'dec_type': 'lstm',
+    'nz': 32,
+    'ni': 256,
+    'enc_nh': 256,
+    'dec_nh': 256,
+    'log_niter': 50,
+    'dec_dropout_in': 0.5,
+    'dec_dropout_out': 0.5,
+    'batch_size': 32,
+    'epochs': 100,
+    'test_nepoch': 5,
+    'train_data': 'datasets/ptb_data/ptb.train.txt',
+    'val_data': 'datasets/ptb_data/ptb.valid.txt',
+    'test_data': 'datasets/ptb_data/ptb.test.txt',
+    'ais_prior': 'normal',
+    'ais_T': 500,
+    'ais_K': 2223
+}
